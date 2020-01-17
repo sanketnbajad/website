@@ -1,0 +1,218 @@
+@article{mallinson2011enhanced,
+  title={Enhanced refractor imaging by supervirtual interferometry},
+  author={Mallinson, Ian and Bharadwaj, Pawan and Schuster, Gerard and Jakubowicz, Helmut},
+  journal={The Leading Edge},
+  volume={30},
+  number={5},
+  pages={546--550},
+  year={2011},
+  publisher={Society of Exploration Geophysicists}
+}
+
+@article{bharadwaj2012theory,
+  title={Theory of supervirtual refraction interferometry},
+  author={Bharadwaj, Pawan and Schuster, Gerard and Mallinson, Ian and Dai, Wei},
+  journal={Geophysical Journal International},
+  volume={188},
+  number={1},
+  pages={263--273},
+  year={2012},
+  publisher={Oxford University Press}
+}
+
+@inproceedings{schuster2010extending,
+  title={Extending the Aperture and Enhancing the S/N Ratio of Refraction Imaging by Super-virtual Interferometry},
+  author={Schuster, G and Bharadwaj, P},
+  booktitle={AGU Fall Meeting Abstracts},
+  year={2010}
+}
+
+@inproceedings{schuster2011refraction,
+  title={Refraction Interferometry and Free-surface Multiples for Large-offset OBS Data},
+  author={Schuster, GT and Bharadwaj, P and McIntosh, K},
+  booktitle={AGU Fall Meeting Abstracts},
+  year={2011}
+}
+
+@article{bharadwaj2013increasing,
+  title={Increasing the number and signal-to-noise ratio of OBS traces with supervirtual refraction interferometry and free-surface multiples},
+  author={Bharadwaj, Pawan and Wang, Xin and Schuster, Gerard and McIntosh, Kirk},
+  journal={Geophysical Journal International},
+  volume={192},
+  number={3},
+  pages={1070--1084},
+  year={2013},
+  publisher={Oxford University Press}
+}
+
+@article{bharadwaj2013enhancing,
+  title={Enhancing core-diffracted arrivals by supervirtual interferometry},
+  author={Bharadwaj, Pawan and Nissen-Meyer, Tarje and Schuster, Gerard and Mai, P Martin},
+  journal={Geophysical Journal International},
+  volume={196},
+  number={2},
+  pages={1177--1188},
+  year={2013},
+  publisher={Oxford University Press}
+}
+
+@inproceedings{schuster2012extracting,
+  title={Extracting CMB diffractions by Super-virtual Interferometry},
+  author={Schuster, GT and Bharadwaj, P and Nissen-Meyer, T and Mai, PM},
+  booktitle={AGU Fall Meeting Abstracts},
+  year={2012}
+}
+
+@incollection{bharadwaj2013multi,
+  title={Multi-objective full waveform inversion in the absence of low frequencies},
+  author={Bharadwaj, Pawan and Drijkoningen, Guy and Mulder, Wim A},
+  booktitle={SEG Technical Program Expanded Abstracts 2013},
+  pages={964--968},
+  year={2013},
+  publisher={Society of Exploration Geophysicists}
+}
+
+@inproceedings{bharadwaj2014parametrization,
+  title={Parametrization for 2-D SH full waveform inversion},
+  author={Bharadwaj, P and Mulder, WA and Drijkoningen, GG},
+  booktitle={76th EAGE Conference and Exhibition 2014},
+  year={2014}
+}
+
+@article{srivastava2012study,
+  title={Study and mapping of ground water prospect using remote sensing, GIS and geoelectrical resistivity techniques—a case study of Dhanbad district, Jharkhand, India},
+  author={Srivastava, VK and Giri, Devendra Nath and Bharadwaj, Pawan},
+  journal={J Ind Geophys Union},
+  volume={16},
+  number={2},
+  pages={55--63},
+  year={2012}
+}
+
+@inproceedings{bharadwaj2015looking,
+  title={Looking ahead of a tunnel boring machine with 2-D SH full waveform inversion},
+  author={Bharadwaj, P and Mulder, WA and Drijkoningen, GG and Reijnen, R},
+  booktitle={77th EAGE Conference and Exhibition 2015},
+  year={2015}
+}
+
+@inproceedings{bharadwaj2010extending,
+  title={Extending the aperture and increasing the signal-to-noise ratio of refraction surveys with super-virtual interferometry},
+  author={Bharadwaj, P and Schuster, GT},
+  booktitle={Proceedings of the 2010 Fall Meeting AGU},
+  year={2010},
+  organization={San Francisco, California, USA}
+}
+
+@article{bharadwaj2016full,
+  title={Full waveform inversion with an auxiliary bump functional},
+  author={Bharadwaj, Pawan and Mulder, Wim and Drijkoningen, Guy},
+  journal={Geophysical Journal International},
+  volume={206},
+  number={2},
+  pages={1076--1092},
+  year={2016},
+  publisher={Oxford University Press}
+}
+
+@inproceedings{bharadwaj2016shear,
+  title={A Shear-Wave Seismic System to Look Ahead of a Tunnel Boring Machine},
+  author={Bharadwaj, Pawan and Drijkoningen, Guy and Mulder, Wim and Tscharner, Thomas and Jenneskens, Rob},
+  booktitle={Proceedings of the 2016 World Tunneling Congress},
+  pages={1--10},
+  year={2016},
+  organization={Society for mining, metallurgy \& exploration}
+}
+
+@incollection{bharadwaj2017deblending,
+  title={Deblending random seismic sources via independent component analysis},
+  author={Bharadwaj, Pawan and Demanet, Laurent and Fournier, Aim{\'e}},
+  booktitle={SEG Technical Program Expanded Abstracts 2017},
+  pages={4898--4902},
+  year={2017},
+  publisher={Society of Exploration Geophysicists}
+}
+
+@article{bharadwaj2017shear,
+  title={A shear-wave seismic system using full-waveform inversion to look ahead of a tunnel-boring machine},
+  author={Bharadwaj, Pawan and Drijkoningen, Guy and Mulder, Wim and Thorbecke, Jan and Neducza, Boriszlav and Jenneskens, Rob},
+  journal={Near Surface Geophysics},
+  volume={15},
+  number={3},
+  pages={210--224},
+  year={2017}
+}
+
+@article{bharadwaj2018parameterization,
+  title={A parameterization analysis for acoustic full-waveform inversion of sub-wavelength anomalies},
+  author={Bharadwaj, Pawan and Mulder, Wim and Drijkoningen, Guy},
+  journal={arXiv preprint arXiv:1804.01184},
+  year={2018}
+}
+
+@article{bharadwaj2019focused,
+  title={Focused blind deconvolution},
+  author={Bharadwaj, Pawan and Demanet, Laurent and Fournier, Aim{\'e}},
+  journal={IEEE Transactions on Signal Processing},
+  volume={67},
+  number={12},
+  pages={3168--3180},
+  year={2019},
+  publisher={IEEE}
+}
+
+@incollection{bharadwaj2018focused,
+  title={Focused blind deconvolution of interferometric Green’s functions},
+  author={Bharadwaj, Pawan and Demanet, Laurent and Fournier, Aim{\'e}},
+  booktitle={SEG Technical Program Expanded Abstracts 2018},
+  pages={4085--4090},
+  year={2018},
+  publisher={Society of Exploration Geophysicists}
+}
+
+@inproceedings{bharadwaj2015auxiliary,
+  title={An Auxiliary Bump Functional to Overcome Cycle Skipping in Waveform Inversion},
+  author={Bharadwaj, P and Mulder, WA and Drijkoningen, GG},
+  booktitle={77th EAGE Conference and Exhibition-Workshops},
+  year={2015}
+}
+
+@incollection{bharadwaj2011super,
+  title={Super-virtual refraction interferometry: Theory},
+  author={Bharadwaj, Pawan and Schuster, Gerard T and Mallinson, Ian},
+  booktitle={SEG Technical Program Expanded Abstracts 2011},
+  pages={3809--3813},
+  year={2011},
+  publisher={Society of Exploration Geophysicists}
+}
+
+@inproceedings{bharadwaj2018focused,
+  title={Focused blind deconvolution of earthquake signals},
+  author={Bharadwaj, Pawan and Mukuhira, Yusuke and Demanet, Laurent and Fehler, Michael and Fournier, Aim{\'e}},
+  booktitle={AGU Fall Meeting Abstracts},
+  year={2018}
+}
+
+@incollection{fournier2019seismoelectric,
+  title={A seismoelectric inverse problem with well-log data and borehole-confined acquisition},
+  author={Fournier, Aim{\'{}} e and Clerget, Charles-Henri and Bharadwaj, Pawan and Merciu, Alexandru and Skar, Gjertrud},
+  booktitle={SEG Technical Program Expanded Abstracts 2019},
+  pages={4014--4018},
+  year={2019},
+  publisher={Society of Exploration Geophysicists}
+}
+
+@article{bharadwaj2019redshift,
+  title={Redshift of Earthquakes via Focused Blind Deconvolution of Teleseisms},
+  author={Bharadwaj, Pawan and Meng, Chunfang and Fournier, Aim{\'e} and Demanet, Laurent and Fehler, Mike},
+  year={2019},
+  publisher={EarthArXiv}
+}
+
+@misc{bharadwaj2019systems,
+  title={Systems and methods for focused blind deconvolution},
+  author={Bharadwaj, Pawan and Demanet, Laurent and Fournier, Aime},
+  year={2019},
+  month=nov # "~14",
+  note={US Patent 20,190,349,223}
+}
