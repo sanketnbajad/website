@@ -6,7 +6,7 @@ active = true  # Activate this widget? true/false
 weight = 50  # Order that this section will appear.
 
 title = "Accomplish&shy;ments"
-subtitle = ""
+subtitle = "Awards and Grants"
 
 # Date format
 #   Refer to https://sourcethemes.com/academic/docs/customization/#date-format
@@ -19,33 +19,43 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[item]]
-  organization = "Coursera"
-  organization_url = "https://www.coursera.org"
-  title = "Neural Networks and Deep Learning"
+  organization = "TU Delft"
+  organization_url = ""
+  title = "Best Paper Award during the annual TU Delft Geosciences Research Meeting"
   url = ""
-  certificate_url = "https://www.coursera.org"
+  certificate_url = ""
   date_start = "2018-10-01"
   date_end = ""
   description = ""
 
-[[item]]
-  organization = "edX"
-  organization_url = "https://www.edx.org"
-  title = "Blockchain Fundamentals"
-  url = "https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals"
-  certificate_url = "https://www.edx.org"
-  date_start = "2018-03-01"
-  date_end = ""
-  description = "Formulated informed blockchain models, hypotheses, and use cases."
   
 [[item]]
-  organization = "DataCamp"
-  organization_url = "https://www.datacamp.com"
-  title = "Object-Oriented Programming in R: S3 and R6 Course"
+  organization = "Netherlands Organization for Scientific Research (NWO)"
+  organization_url = ""
+  title = "Computational Resource Grant to develop near-surface seismic imaging algorithms for real-time risk assessment during tunnel excavation"
   url = ""
-  certificate_url = "https://www.datacamp.com"
-  date_start = "2017-07-01"
-  date_end = "2017-12-21"
+  certificate_url = ""
+  date_start = "2014-05-01"
+  date_end = ""
   description = ""
 
+[[item]]
+  organization = "Department of Science and Technology, India"
+  organization_url = ""
+  title = "Innovation in Science Pursuit for Inspired Research (INSPIRE) Scholarship"
+  url = ""
+  certificate_url = ""
+  date_start = "2008-04-01"
+  date_end = ""
+  description = ""
+
+[[item]]
+  organization = "Indian School of Mines, India"
+  organization_url = ""
+  title = "Scholarship for Higher Education, Indian School of Mines"
+  url = ""
+  certificate_url = ""
+  date_start = "2008-04-01"
+  date_end = ""
+  description = ""
 +++
