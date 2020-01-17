@@ -5,9 +5,11 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 50  # Order that this section will appear.
 
-title = "Accomplish&shy;ments"
-subtitle = "Awards and Grants"
 
+
+title = "Accomplish&shy;ments"
+#subtitle = "Awards and Grants"
+#subtitle = "Teaching Experience and Certification"
 # Date format
 #   Refer to https://sourcethemes.com/academic/docs/customization/#date-format
 date_format = "Jan 2006"
@@ -58,4 +60,6 @@ date_format = "Jan 2006"
   date_start = "2008-04-01"
   date_end = ""
   description = ""
+
+
 +++
