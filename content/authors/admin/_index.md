@@ -14,25 +14,26 @@ role: Postdoctoral Associate, Department of Mathematics and Earth Resources Labo
 
 # Organizations/Affiliations
 organizations:
-- name: Massachusetts Institute of Technology (MIT)
-  url: ""
+- name: Massachusetts Institute of Technology
+  url: "mit.edu"
 
 # Short bio (displayed in user profile at end of posts)
-bio: A researcher with an expertise in inverse problems and signal processing relevant to wave propagation and scattering; passionate to solve real-life challenges pertaining to seismic, radar and medical imaging. 
+bio: A driven and knowledgeable research associate offering proven background in applied mathematics and geophysics. History of developing novel algorithms related geophysical inverse problems, signal processing and machine learning.
 
 interests:
-- wave-equation based imaging and inversion
-- signal processing, blind deconvolution and source separation
-- seismic interferometry and its applications in both exploration and global seismology
-- parallelization and developing efficient algorithms for high performance computing in geophysical applications
+- wave-equation based imaging
+- geophysical signal processing
+- earthquake seismology 
+- seismic interferometry 
+- high performance computing for geophysical applications
 
 education:
   courses:
   - course: PhD in Geophysics
-    institution: Delft University of Technology (TU Delft), Delft, The Netherlands
+    institution: Delft University of Technology (TU Delft), Delft, The Netherlands.
     year: 2016
-  - course: Master of Science and Technology, Applied Geophysics
-    institution: Five year integrated degree in Indian Institute of Technology (Indian School of Mines), IIT (ISM), Dhanbad, India.
+  - course: Master of Science and Technology
+    institution: Indian Institute of Technology (Indian School of Mines), IIT (ISM), Dhanbad, India.
     year: 2012
 
 # Social/Academic Networking
