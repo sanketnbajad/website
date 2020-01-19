@@ -1,10 +1,10 @@
----
+﻿---
 title: "Focused blind deconvolution of earthquake signals"
 date: 2018-01-01
 publishDate: 2020-01-17T02:43:54.255488Z
 authors: ["Pawan Bharadwaj", "Yusuke Mukuhira", "Laurent Demanet", "Michael Fehler", "Aimé Fournier"]
 publication_types: ["1"]
-abstract: ""
+abstract: "Focused blind deconvolution (FBD) is the state-of-the-art blind deconvolution algorithm that can simultaneously estimate the subsurface Green’s function and the earthquake source signature from the records at multiple receiver stations. The inherent indeterminacy in multichannel blind deconvolution, which is difficult to resolve with the traditional sparsity assumptions on the Green’s functions, is resolved in FBD because it seeks a solution where the Green’s functions are maximally “white” and “front-loaded”. These assumptions, which are suitable in the seismic context, are numerically encoded as energy focusing constraints. FBD allows reliable blind deconvolution of the earthquake records without any of the following prerequisites: knowledge on the focal mechanism of the earthquake; synthetic wave modeling to construct the deconvolution operator; identification or windowing of the body-wave phases; and accurate determination of the source duration. Obtaining knowledge about the earthquake source is only possible by analyzing the far-field records as most of the events occur in places with sparse local seismological or geodetic instrumentation. In FBD, the source signature is isolated from the records by undoing the propagation effects in order to learn the fault mechanism. In addition to this, the estimated Green’s function can be independently studied to understand the subsurface mechanical properties. For example, the FBD-estimated Green’s functions due to multiple events, with arbitrary source signatures, occurring at the same location can be interpreted to map the time-lapse changes in these properties. FBD is a multichannel processing algorithm, i.e., it heavily relies on fact that the waves are recorded at multiple far-field receiver stations. Also, FBD requires that the records are sufficiently low-pass filtered such that the fault length of the earthquake is much smaller than the wavelength corresponding to the maximum frequency. In this abstract, we deconvolve the events occurred in the Tohuku region to test whether the FBD outputs are conforming with the existing literature."
 featured: false
 publication: "*AGU Fall Meeting Abstracts*"
 ---

@@ -1,10 +1,10 @@
----
+﻿---
 title: "A seismoelectric inverse problem with well-log data and borehole-confined acquisition"
 date: 2019-01-01
 publishDate: 2020-01-17T02:43:54.255705Z
 authors: ["Aim ́e Fournier", "Charles-Henri Clerget", "Pawan Bharadwaj", "Alexandru Merciu", "Gjertrud Skar"]
-publication_types: ["6"]
-abstract: ""
+publication_types: ["1"]
+abstract: "One of the formation properties that most can impact drilling risk is pore-fluid pressure. While the literature abounds with analyses, computation and laboratory experiments, and case studies purportedly providing the remote estimation of pressure, none has yet lead to a technology that is confidently adopted in general drilling situations, or even in well-defined specific situations. It is a consequence of physics that direct measurement of pressure can be performed only by sensors in contact with the medium; whereas indirect, remote estimation may be enabled by the effect of pressure on mechanical or electromagnetic fields propagating through the bulk to recording receivers. Technology has not been confidently adopted mainly due to large uncertainties of how measurable formation properties relate measurable fields to pressure. To advance this situation, in our research program we propose to combine: a new, hypothetical downhole tool using acoustic sources with geophones and electric receivers along the drill string; a new LWD system, firing drill-string sources designed to concentrate acoustic energy in a spatially compact locus many 10s of meters ahead of the bit; and a new real-time inversion problem comprising estimation of zonation i.e., formation layer interfaces, jointly from concurrent drilling-operation parameters and seismoelectric gradient-response signals, plus estimation of uniform acoustic and electric properties within depth intervals. The aim of this program, ultimately to be conjoined with petrophysical and geomechanical modeling based on zonation and interval properties, is to estimate pore pressure many 10s of meters ahead of the drill bit. This abstract presents a preliminary outline of the tool and system, a formal sensitivity analysis of the inversion computation procedure with respect to the properties being estimated, and numerical simulations of just the seismoelectric aspect of its overall operation, in a field populated by properties from actual well logs."
 featured: false
 publication: "*SEG Technical Program Expanded Abstracts 2019*"
 ---
