@@ -1,27 +1,28 @@
 ---
-title: FocusedBlindDecon
+title: Focused Blind Deconvolution
 
 summary: A Julia Toolbox for Geophysical Modeling and Inverse Problems.
 tags:
-- software
+- blind deconvolution
+- noise imaging
 date: "2016-04-27T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
-external_link: "https://pawbz.github.io/FocusedBlindDecon.jl/dev/"
+#external_link: "https://pawbz.github.io/FocusedBlindDecon.jl/dev/"
 
 image:
   caption: Photo by rawpixel on Unsplash
   focal_point: Smart
 
 links:
-- icon: twitter
-  icon_pack: fab
+- icon: external-link-alt
+  icon_pack: fas
   name: Follow
-  url: https://twitter.com/georgecushen
-url_code: ""
-url_pdf: ""
-url_slides: ""
-url_video: ""
+  url: https://erlweb.mit.edu/announcements/robust-extraction-useful-information-seismic-measurements
+url_code: "https://pawbz.github.io/FocusedBlindDecon.jl/dev/"
+url_pdf: "https://ieeexplore.ieee.org/document/8680655"
+url_slides: "https://github.com/pawbz/pawbz.github.io/blob/src/pdf/slides/Pawan_FBD_slides_SEGAM.pdf"
+url_video: "https://www.youtube.com/watch?v=VLhvXITeFb0"
 
 # Slides (optional).
 #   Associate this project with Markdown slides.
@@ -30,13 +31,23 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 slides: example
 ---
+* This research 
+introduces an idea (focusing) that is important to 
+resolve the indeterminacy inherent to multichannel blind deconvolution.
+[\[paper\]](https://arxiv.org/abs/1808.00166)
+[\[slides\]](https://github.com/pawbz/pawbz.github.io/blob/src/pdf/slides/Pawan_FBD_slides_SEGAM.pdf) 
+* FBD is a deconvolution algorithm that 
+extracts sparse and front-loaded impulse responses from the channel outputs, i.e., 
+their convolutions with a single arbitrary source. 
+* This project also employs FBD to solve essential problems in both exploration and earthquake seismology.
+In this context, FBD not only 
+outputs the subsurface Green's function, which can be directly input to imaging, 
+but also helps us understand the noisy source characteristics.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
 
-Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.
+{{< figure src="FBD_movie1.png" title="Info-graphic of focused blind deconvolution, which is a data-driven Green's function retrieval algorithm for multi-channel seismic data of a noisy source." numbered="true" lightbox="true" >}}
 
-Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.
 
-Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.
+{{< figure src="FBD_movie2.png" title="Marmousi experiment, where FBD (data panel 3) outperforms the conventional Green's function retrieval from noise (data panel 1) through cross-correlation (data panel 4). When compared to the true Green's function (data panel 2), note that FBD not only recovers the direct arrival but also the scattered arrivals due to the reflectors in the medium." numbered="true" lightbox="true" >}}
 
-Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.
+
