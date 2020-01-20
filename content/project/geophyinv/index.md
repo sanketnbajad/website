@@ -4,6 +4,7 @@ title: GeoPhyInv
 summary: A Julia Toolbox for Geophysical Modeling and Inverse Problems.
 tags:
 - software
+- imaging
 date: "2016-04-27T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).

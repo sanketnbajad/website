@@ -3,8 +3,9 @@ title: Super-virtual Interferometry
 
 summary: A Julia Toolbox for Geophysical Modeling and Inverse Problems.
 tags:
-- blind deconvolution
-- noise imaging
+- inteferometry 
+- refractions
+- imaging
 date: "2016-04-27T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
