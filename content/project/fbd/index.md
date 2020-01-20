@@ -1,7 +1,7 @@
 ---
 title: Focused Blind Deconvolution
 
-summary: A Julia Toolbox for Geophysical Modeling and Inverse Problems.
+summary: Data-driven Green's function retrieval from the multi-channel seismic data of a noisy source.
 tags:
 - blind deconvolution
 - noise imaging
@@ -22,7 +22,7 @@ links:
 url_code: "https://pawbz.github.io/FocusedBlindDecon.jl/dev/"
 url_pdf: "https://ieeexplore.ieee.org/document/8680655"
 url_slides: "https://github.com/pawbz/pawbz.github.io/blob/src/pdf/slides/Pawan_FBD_slides_SEGAM.pdf"
-url_video: "https://www.youtube.com/watch?v=VLhvXITeFb0"
+url_video: "https://www.pathlms.com/siam/courses/11267/sections/14660/video_presentations/128895"
 
 # Slides (optional).
 #   Associate this project with Markdown slides.
