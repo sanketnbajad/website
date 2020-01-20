@@ -81,7 +81,7 @@ edit_page = {repo_url = "https://github.com/gcushen/hugo-academic", content_dir 
 ############################
 
 # Enter contact details (optional). To hide a field, clear it to "".
-email = "pawbz@mit.edu"
+email = "pawbz[at]mit.edu"
 #phone = ""
 
 # Address
@@ -90,7 +90,7 @@ address = {street = "54-224, 77 Massachusetts Ave", city = "Cambridge", region =
 
 # Geographic coordinates
 # To get your coordinates, right-click on Google Maps and choose "What's here?". The coords will show up at the bottom.
-coordinates = {latitude = "42.360340", longitude = "-71.089304"}
+#coordinates = {latitude = "42.360340", longitude = "-71.089304"}
 
 # Directions for visitors to locate you.
 #directions = "Enter Building 1 and take the stairs to Office 200 on Floor 2"
