@@ -86,7 +86,7 @@ email = "pawbz@mit.edu"
 
 # Address
 # For country_code, use the 2-letter ISO code (see https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2 )
-address = {street = "77 Massachusetts Ave", city = "Cambridge", region = "MA", postcode = "02139", country = "United States", country_code = "US"}
+address = {street = "54-224, 77 Massachusetts Ave", city = "Cambridge", region = "MA", postcode = "02139", country = "United States", country_code = "US"}
 
 # Geographic coordinates
 # To get your coordinates, right-click on Google Maps and choose "What's here?". The coords will show up at the bottom.
@@ -105,8 +105,8 @@ coordinates = {latitude = "42.360340", longitude = "-71.089304"}
 # Contact links
 #   Set to `[]` to disable, or comment out unwanted lines with a hash `#`.
 contact_links = [
-  {icon = "twitter", icon_pack = "fab", name = "DM Me", link = "https://twitter.com/bharadwajpawan"},
-  {icon = "skype", icon_pack = "fab", name = "Skype Me", link = "skype:bharadwaj.pawan?call"},
+  {icon = "twitter", icon_pack = "fab", name = "Follow", link = "https://twitter.com/bharadwajpawan"},
+  {icon = "skype", icon_pack = "fab", name = "Skype", link = "skype:bharadwaj.pawan?call"},
   #{icon = "keybase", icon_pack = "fab", name = "Chat on Keybase", link = "https://keybase.io/"},
   #{icon = "comments", icon_pack = "fas", name = "Discuss on Forum", link = "https://discourse.gohugo.io"},
   # {icon = "telegram", icon_pack = "fab", name = "Telegram Me", link = "https://telegram.me/@Telegram"},

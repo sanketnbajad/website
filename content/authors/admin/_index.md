@@ -53,11 +53,23 @@ social:
 - icon: github
   icon_pack: fab
   link: https://github.com/pawbz
+- icon: researchgate
+  icon_pack: ai
+  link: https://www.researchgate.net/profile/Pawan_Bharadwaj
+- icon: linkedin
+  icon_pack: fab
+  link: https://www.linkedin.com/in/pawan-bharadwaj-70ab9943/
+- icon: orcid
+  icon_pack: fab
+  link: http://orcid.org/0000-0003-4081-8969
+- icon: home
+  icon_pack: fas
+  link: http://pawbz.github.io
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-# - icon: cv
-#   icon_pack: ai
-#   link: files/cv.pdf
+- icon: cv
+  icon_pack: ai
+  link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
@@ -69,4 +81,4 @@ user_groups:
 - Visitors
 ---
 
-A researcher with an expertise in inverse problems and signal processing relevant to wave propagation and scattering; passionate to solve real-life challenges pertaining to seismic, radar and medical imaging. 
+A driven and knowledgeable research associate offering proven background in applied mathematics and geophysics. History of developing novel algorithms related geophysical inverse problems, signal processing and machine learning.
