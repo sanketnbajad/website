@@ -1,7 +1,8 @@
 ---
 title: Full Waveform Inversion 
 
-summary: A Julia Toolbox for Geophysical Modeling and Inverse Problems.
+summary: When the seismic waveforms are too complicated to be analyzed during inversion, a simplification of them into envelope-like bumpy waveforms can be useful.
+
 tags:
 - blind deconvolution
 - noise imaging
