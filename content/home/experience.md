@@ -24,18 +24,20 @@ date_format = "Jan 2006"
   location = "Cambridge, USA"
   date_start = "2016-12-01"
   date_end = ""
-#  description = """
-#  """
+  description = """
+Mentor: Prof. Laurent Demanet 
+  """
 
 [[experience]]
-  title = "Researcher, Faculty of Civil Engineering and Geosciences"
+  title = "Graduate Researcher, Faculty of Civil Engineering and Geosciences"
   company = "Delft University of Technology (TU Delft)"
   company_url = ""
   location = "Delft, The Netherlands"
   date_start = "2012-09-01"
   date_end = "2016-11-30"
-#  description = """
-#"""
+  description = """
+Advisors: Prof. Wim Mulder; Prof. Guy Drijkoningen
+"""
 
 [[experience]]
   title = "Research Assistant, Physical Science and Engineering Division"
@@ -45,7 +47,7 @@ date_format = "Jan 2006"
   date_start = "2010-05-01"
   date_end = "2012-05-31"
   description = """
-Multiple short-term visits
+Mentor: Jerry Schuster
 """
 
 

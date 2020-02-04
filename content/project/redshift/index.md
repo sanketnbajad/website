@@ -1,7 +1,7 @@
 ---
 title: Redshift of Earthquakes
 
-summary: A Julia Toolbox for Geophysical Modeling and Inverse Problems.
+summary: A robust factorization of the teleseismic waveforms resulting from an earthquake.
 tags:
 - blind deconvolution
 - rupture characterization 

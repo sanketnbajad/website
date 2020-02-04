@@ -18,7 +18,7 @@ organizations:
   url: "mit.edu"
 
 # Short bio (displayed in user profile at end of posts)
-bio: A driven and knowledgeable research associate offering proven background in applied mathematics and geophysics. History of developing novel algorithms related geophysical inverse problems, signal processing and machine learning.
+bio: A driven and knowledgeable research associate offering proven background in applied mathematics and geophysics.  History of developing novel algorithms related to geophysical inverse problems, signal processing and machine learning.
 
 interests:
 - wave-equation based imaging
@@ -81,4 +81,4 @@ user_groups:
 - Visitors
 ---
 
-A driven and knowledgeable research associate offering proven background in applied mathematics and geophysics. History of developing novel algorithms related geophysical inverse problems, signal processing and machine learning.
+A driven and knowledgeable research associate offering proven background in applied mathematics and geophysics. History of developing novel algorithms related to geophysical inverse problems, signal processing and machine learning.
