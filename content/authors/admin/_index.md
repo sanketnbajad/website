@@ -65,9 +65,9 @@ social:
 - icon: home
   icon_pack: fas
   link: http://pawbz.github.io
-- icon: home
-  icon_pack: fas
-  link: bharadwaj.pawan
+- icon: skype
+  icon_pack: fab
+  link: skype:bharadwaj.pawan?call
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 - icon: cv
