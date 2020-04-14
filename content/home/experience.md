@@ -27,8 +27,6 @@ date_format = "Jan 2006"
   description = """
 Investigating novel methods of machine learning in the
 context of seismic imaging.
-This line of
-work is of relevance to the oil and gas industry.
 * Mentor: Prof. Laurent Demanet.
   """
 
