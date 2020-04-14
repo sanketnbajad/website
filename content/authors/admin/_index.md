@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Postdoctoral Associate, Department of Mathematics and Earth Resources Laboratory
+role: Research Scientist, Department of Mathematics and Earth Resources Laboratory
 
 # Organizations/Affiliations
 organizations:
@@ -65,6 +65,9 @@ social:
 - icon: home
   icon_pack: fas
   link: http://pawbz.github.io
+- icon: home
+  icon_pack: fas
+  link: bharadwaj.pawan
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 - icon: cv

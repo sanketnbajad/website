@@ -3,10 +3,10 @@
 widget = "featurette"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 110  # Order that this section will appear.
+weight = 23 # Order that this section will appear.
 
-title = ""
-subtitle = ""
+#title = "Geophysical Signal Processing and Imaging Group"
+subtitle = "My research seeks simple, reliable, and flexible signal models that improve over their predecessors in the following disciplines."
 
 # Showcase personal skills or business features.
 # 
@@ -14,40 +14,29 @@ subtitle = ""
 # 
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
 
+ 
 [[feature]]
-  icon = "slack-hash"
-  icon_pack = "fab"
-  name = "julia"
-  #description = "90%"
+  icon = "images"
+  icon_pack = "far"
+  name = "Seismic Imaging"
+  description="The scientific field where recordings of seismic waves are used to infer information about geological structures deep underground."
   
 [[feature]]
-  icon = "github"
-  icon_pack = "fab"
-  name = "git"
-  #description = "100%"  
-  
-[[feature]]
-  icon = "python"
-  icon_pack = "fab"
-  name = "Python"
-  #description = "10%"
+  icon = "assistive-listening-systems"
+  icon_pack = "fas"
+  name = "Seismic Interferometry"
+  description = "Techniques that study the interference phenomena between pairs of noise signals in order to gain useful information about the subsurface."
 
 [[feature]]
-  icon = "terminal"
+  icon = "globe"
   icon_pack = "fas"
-  name = "bash"
-  #description = "10%"
-
-[[feature]]
-  icon = "book-open"
-  icon_pack = "fas"
-  name = "jupyter"
-  #description = "10%"
-
-[[feature]]
-  icon = "laptop-code"
-  icon_pack = "fas"
-  name = "Fortran"
-  #description = "10%"
+  name = "Earthquake Seismology"
+  description = "Scientific study of earthquakes and the propagation of elastic waves through the Earth."
+ 
 
 +++
+## My research seeks simple, reliable, and flexible models to process geophysical signals in the following disciplines.
+
+<!-- Funding Sources: Oil & Gas Industry; Urban Planning and Civil Engineering; Ground Water; Mineral Exploration; Applications to Medical Imaging. -->
+
+

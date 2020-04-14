@@ -7,7 +7,7 @@ weight = 110  # Order that this section will appear.
 
 
 
-title = "Accomplish&shy;ments"
+title = "Accomplishments"
 #subtitle = "Awards and Grants"
 #subtitle = "Teaching Experience and Certification"
 # Date format
@@ -21,30 +21,41 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[item]]
-  organization = "TU Delft"
+  organization = "Massachusetts Institute of Technology (MIT)"
   organization_url = ""
-  title = "Best Paper Award during the annual TU Delft Geosciences Research Meeting"
+  title = "Kaufman Teaching Certificate"
+  url = ""
+  certificate_url = ""
+  date_start = "2019-02-01"
+  date_end = "2019-04-28"
+  description = "Demonstrated a strong commitment to the teaching enterprise by completing several workshops and contributing to class discussions and activities designed to help practice teaching methods."
+
+
+[[item]]
+  organization = "Delft University of Technology (TU Delft)"
+  organization_url = ""
+  title = "Best Paper Award" 
   url = ""
   certificate_url = ""
   date_start = "2018-10-01"
   date_end = ""
-  description = ""
+  description = "Presented during the annual geosciences research meeting."
 
   
 [[item]]
   organization = "Netherlands Organization for Scientific Research (NWO)"
   organization_url = ""
-  title = "Computational Resource Grant to develop near-surface seismic imaging algorithms for real-time risk assessment during tunnel excavation"
-  url = ""
+  title = "Computational Resource Grant"
   certificate_url = ""
   date_start = "2014-05-01"
   date_end = ""
-  description = ""
+  description = "Developed near-surface seismic imaging algorithms for real-time risk assessment during tunnel excavation."
+
 
 [[item]]
   organization = "Department of Science and Technology, India"
   organization_url = ""
-  title = "Innovation in Science Pursuit for Inspired Research (INSPIRE) Scholarship"
+  title = "Innovation In Science Pursuit For Inspired Research (INSPIRE) Scholarship"
   url = ""
   certificate_url = ""
   date_start = "2008-04-01"
