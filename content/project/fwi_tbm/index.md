@@ -19,6 +19,9 @@ image:
   focal_point: Smart
   preview_only: true
 
+
+draft: true
+
 links:
 - icon: twitter
   icon_pack: fab
