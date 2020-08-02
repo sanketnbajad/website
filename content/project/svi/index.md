@@ -7,7 +7,7 @@ tags:
 - Refraction Imaging
 - Head-waves
 
-date: "2016-04-27T00:00:00Z"
+date: "2014-11-27T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
 #external_link: "https://pawbz.github.io/FocusedBlindDecon.jl/dev/"
@@ -52,7 +52,8 @@ the recording of the refracted signals radiated from deep geological boundaries,
 MOHO.
 However, as the energy propagates over large distances, the signal strength decays 
 resulting in poor signal-to-noise ratio.
-Consequently, an accurate tomography and imaging of the crustal structure required _denoising_ of the refracted energy.
+Consequently, an accurate tomography and imaging of the crustal structure required denoising
+ of the refracted energy.
 
 
 Signal processing methods based on seismic interferometry principally extract energy, which is 

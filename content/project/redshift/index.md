@@ -7,7 +7,7 @@ tags:
 - Blind Deconvolution 
 - Rupture Characterization 
 - Earthquake Spectrum
-date: "2016-04-27T00:00:00Z"
+date: "2019-12-27T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
 #external_link: "https://pawbz.github.io/FocusedBlindDecon.jl/dev/"
@@ -18,14 +18,13 @@ image:
   preview_only: true
 
 links:
-- icon: external-link-alt
-  icon_pack: fas
-  name: Follow
-  url: https://erlweb.mit.edu/announcements/robust-extraction-useful-information-seismic-measurements
+# - icon: external-link-alt
+  # icon_pack: fas
+  # name: Follow
 url_code: "https://pawbz.github.io/FocusedBlindDecon.jl/dev/"
-url_pdf: "https://ieeexplore.ieee.org/document/8680655"
-url_slides: "https://github.com/pawbz/pawbz.github.io/blob/src/pdf/slides/Pawan_FBD_slides_SEGAM.pdf"
-url_video: "https://www.youtube.com/watch?v=VLhvXITeFb0"
+# url_pdf: "https://ieeexplore.ieee.org/document/8680655"
+# url_slides: "https://github.com/pawbz/pawbz.github.io/blob/src/pdf/slides/Pawan_FBD_slides_SEGAM.pdf"
+# url_video: "https://www.youtube.com/watch?v=VLhvXITeFb0"
 
 # Slides (optional).
 #   Associate this project with Markdown slides.
@@ -35,7 +34,7 @@ url_video: "https://www.youtube.com/watch?v=VLhvXITeFb0"
 slides: example
 ---
 
-{{< figure src="redshift_fig.png" title="Schematic of waves emitted due to a rupture propagating from west (azimuth $\theta=270^{\circ}$) to east (90$^{\circ}$). a) Blue waves emitted towards the east are shortened, while the red waves traveling towards the west are lengthened. These waves undergo complex scattering (squares) before they reach the receivers (triangles), resulting in a challenging source-spectrum estimation problem. b) FBD factorizes the measurements, effectively removes the complex scattering or path effects and directly estimates the source spectra (red-blue graphs) at the receivers. The variability of the normalized source spectrum with $\theta$ can be used to infer the kinematic rupture parameters." numbered="true" lightbox="true" >}}
+{{< figure src="redshift_fig.png" title="Schematic of waves emitted due to a rupture propagating from west (azimuth $\theta=270^{\circ}$) to east (90$^{\circ}$). a) Blue waves emitted towards the east are shortened, while the red waves traveling towards the west are lengthened. These waves undergo complex scattering (squares) before they reach the receivers (triangles), resulting in a challenging source-spectrum estimation problem. b) I have developed a signal model to factorize the measurements, effectively removes the complex scattering or path effects and directly estimates the source spectra (red-blue graphs) at the receivers. The variability of the normalized source spectrum with $\theta$ can be used to infer the kinematic rupture parameters." numbered="true" lightbox="true">}}
 
 
 <div style="text-align: justify">

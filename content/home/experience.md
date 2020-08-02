@@ -64,7 +64,7 @@ thereby output key features pertaining to either sources (e.g., earthquakes) or 
   date_start = "2010-05-01"
   date_end = "2012-05-31"
   description = """Spearheaded research towards the establishment of _super-virtual seismic interferometry_, which presents a collection of methods to denoise seismic refractions and diffractions.  
-* Mentor: Jerry Schuster
+* Mentor: Prof. Gerard Schuster
 """
 
 
