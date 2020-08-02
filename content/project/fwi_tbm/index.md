@@ -8,6 +8,9 @@ tags:
 - Shear Waves
 - Full Waveform Inversion
 - Velocity Model Building
+- Multi-objective Optimization
+- Bump Functional
+- Cycle Skipping
 
 date: "2016-04-27T00:00:00Z"
 
@@ -40,8 +43,7 @@ slides: example
 ---
 
 ![SH-Wave Modeling Karst](movie_snaps.gif)
-summary: A seismic system structure ahead of a tunnel boring machine (TBM).
-title:  Full waveform inversion to look ahead of a tunnel-boring machine
+GIF 1: A look-ahead seismic system deployed on the cutter head of a tunnel-boring machine.
 
 
 <div style="text-align: justify">
@@ -72,19 +74,9 @@ multi-objective full waveform inversion.
  </div>
 
 
-
-
-The Earth’s properties, composition and structure ahead of a tunnel boring machine (TBM) should be mapped for hazard assessment during excavation. For mapping, a seismic system is deployed on the machine’s cutter head, with a few sources and sufficiently many sensors.
-
-* This project studies the feasibility of using 2-D SH full waveform inversion to this near-surface imaging problem, where the 
-images need to be available in near real time and without human interaction.
-* The focus was on a system for soft soils, where shear waves are better and easier 
-to interpret than compressional waves.
-* This study uses data acquired in a 
-number of field settings by a shear-wave vibrator source that mimic realistic TBM configurations.
-
-
 ![Look Ahead of a TBM](movie_inversion.gif)
+GIF 2: Near-surface imaging using 2-D SH full waveform inversion, where the 
+images need to be available in near real time and without human interaction.
 
 <!--
 {{< figure src="mod_transect1.png" title="Imaging a near-surface inclusion in the Netherlands. The actual location of a buried concrete tube is marked in red. Shear-wave velocity (left) and impedance (right) estimates of 2-D SH full waveform inversion depict the inclusion." numbered="true" lightbox="true" >}} 
