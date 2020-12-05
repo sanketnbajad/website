@@ -6,7 +6,7 @@ highlight_name: true
 
 # Username (this should match the folder name)
 authors:
-- admin
+- bharadwaj-pawan
 
 # Is this the primary user of the site?
 superuser: true
