@@ -1,6 +1,8 @@
 ---
 # Display name
-name: Pawan Bharadwaj
+title: Pawan Bharadwaj
+
+highlight_name: true
 
 # Username (this should match the folder name)
 authors:
@@ -10,15 +12,17 @@ authors:
 superuser: true
 
 # Role/position
-role: Research Scientist, Department of Mathematics and Earth Resources Laboratory
+role: Assistant Professor, Center for Earth Sciences
 
 # Organizations/Affiliations
 organizations:
-- name: Massachusetts Institute of Technology
-  url: "mit.edu"
+- name: Indian Institute of Science
+  url: "iisc.ac.in"
 
 # Short bio (displayed in user profile at end of posts)
-bio: A driven and knowledgeable research associate offering proven background in applied mathematics and geophysics.  History of developing novel algorithms related to geophysical inverse problems, signal processing and machine learning.
+bio: "Pawan is an assistant professor in the Center for Earth Sciences at the Indian Institute of Science (IISc). He enjoys developing novel algorithms related to geophysical inverse problems, signal processing and machine learning."
+
+
 
 interests:
 - wave-equation based imaging
@@ -29,10 +33,12 @@ interests:
 
 education:
   courses:
+  - course: Postdoctoral Associate
+    institution: Massachusetts Institute of Technology (MIT), Cambridge, USA.
   - course: PhD in Geophysics
     institution: Delft University of Technology (TU Delft), Delft, The Netherlands.
     year: 2016
-  - course: Master of Science and Technology
+  - course: Master of Science and Technology --- 5 year Integrated
     institution: Indian Institute of Technology (Indian School of Mines), IIT (ISM), Dhanbad, India.
     year: 2012
 
@@ -80,8 +86,9 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Researchers
-- Visitors
+- Principal Investigator
 ---
 
-A driven and knowledgeable research associate offering proven background in applied mathematics and geophysics. History of developing novel algorithms related to geophysical inverse problems, signal processing and machine learning.
+Pawan is an assistant professor in the Center for Earth Sciences at the Indian Institute of Science (IISc). Previously, he was a postdoctoral associate
+in the Department of Mathematics at MIT. He finished his Ph.D. program in Geophysics at Delft University of Technology (TUDelft), The Netherlands. In 2012, he obtained a Master of Science degree in Geophysics from the Indian Institute of Technology (Indian School of Mines), Dhanbad, India. He enjoys developing novel algorithms related to geophysical inverse problems, signal processing and machine learning. Click [here]({{< ref "admin_extra/index.md" >}}) for a longer bio.
+

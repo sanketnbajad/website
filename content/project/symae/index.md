@@ -1,17 +1,17 @@
 ---
-title: SymAE
+title: SymAE (coming soon)
 
-summary: An autoencoder with embedded physical symmetries for passive time-lapse monitoring.
+summary: An autoencoder with embedded physical symmetries for generating virtual experimental data.
 tags:
 - Deep Learning 
 - Imaging
 - Interferometry
-date: "2016-04-27T00:00:00Z"
+date: "2020-10-02T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
 #external_link: "https://pawbz.github.io/FocusedBlindDecon.jl/dev/"
 
-draft: true
+draft: false
 
 image:
   caption: Photo by rawpixel on Unsplash

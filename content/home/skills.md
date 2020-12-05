@@ -3,10 +3,10 @@
 widget = "featurette"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 23 # Order that this section will appear.
+weight = 5 # Order that this section will appear.
 
-#title = "Geophysical Signal Processing and Imaging Group"
-subtitle = "My research seeks simple, reliable, and flexible signal models that improve over their predecessors in the following disciplines."
+title = "Computational Seismology Group"
+subtitle = "We develop reliable, flexible and scalable signal models for seismic inversion; thereby accelerating scientific discoveries in the field of seismology. Specifically, we are interested in mathematical and computational techniques for data-intensive inverse problems in the following disciplines."
 
 # Showcase personal skills or business features.
 # 
@@ -35,8 +35,9 @@ subtitle = "My research seeks simple, reliable, and flexible signal models that 
  
 
 +++
-## My research seeks simple, reliable, and flexible models to process geophysical signals in the following disciplines.
+<!-- encompasses the field of geophysical signal processing and inversion. It  -->
 
 <!-- Funding Sources: Oil & Gas Industry; Urban Planning and Civil Engineering; Ground Water; Mineral Exploration; Applications to Medical Imaging. -->
 
 
+<!-- #### We are currently affiliated with the Department of Materials Engineering at the Indian Institute of Science (or IISc) -->
