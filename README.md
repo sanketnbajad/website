@@ -1,32 +1,242 @@
-<p align="center"><a href="https://wowchemy.com" target="_blank" rel="noopener"><img src="https://wowchemy.com/img/logo_200px.png" alt="Wowchemy Website Builder"></a></p>
+ Readme 
 
-# Academic Template for [Hugo](https://github.com/gohugoio/hugo)
+This is the github repo of Computational Seismology Lab at IISc.
 
-The Hugo **Academic Resumé Template** empowers you to create your job-winning online resumé and showcase your academic publications.
+## Initial setup
 
-[Check out the latest demo](https://academic-demo.netlify.app) of what you'll get in less than 10 minutes, or [view the showcase](https://wowchemy.com/user-stories/).
+### Cloning to this repo
 
-[**Wowchemy**](https://wowchemy.com) makes it easy to create a beautiful website for free. Edit your site in Markdown, Jupyter, or RStudio (via Blogdown), generate it with Hugo, and deploy with GitHub or Netlify. Customize anything on your site with widgets, themes, and language packs.
+- Make a github account [here](https://github.com/).
+- Send github email infor to Pawan ([pawan@iisc.ac.in](mailto:pawan@iisc.ac.in)) to be added as a collaborator to this repo.
+- Open your terminal and navigate to a directory where you'd like to clone the repository.
+- Run this command in your terminal: 
+```
+git clone --recursive -j8 https://github.com/pawbz/homepage.git
+```
+- Check that you're on the master branch both in the root directory, as well as in the subfolder public.
+- In the root directory, run the following commands:
+```
+git branch 
+cd public
+git branch 
+cd ../themes/academic
+git branch
+```
+You should be on the branch `master` for all three of them. If not, then type `git checkout master` to change the branch (in each of the three directories).
 
-- 👉 [**Get Started**](https://wowchemy.com/docs/install/)
-- 📚 [View the **documentation**](https://wowchemy.com/docs/)
-- 💬 [Chat with the **Wowchemy community**](https://discord.gg/z8wNYzb) or [**Hugo community**](https://discourse.gohugo.io)
-- 🐦 Twitter: [@wowchemy](https://twitter.com/wowchemy) [@GeorgeCushen](https://twitter.com/GeorgeCushen) [#MadeWithWowchemy](https://twitter.com/search?q=(%23MadeWithWowchemy%20OR%20%23MadeWithAcademic)&src=typed_query)
-- 💡 [Request a **feature** or report a **bug** for _Wowchemy_](https://github.com/wowchemy/wowchemy-hugo-modules/issues)
-- ⬆️ **Updating Wowchemy?** View the [Update Guide](https://wowchemy.com/docs/update/) and [Release Notes](https://wowchemy.com/updates/)
+### Installing `hugo`
 
-## Crowd-funded open-source software
+- First, install `homebrew` following the instructions [here](https://brew.sh/).
+- The current version of the homepage works with hugo version 0.55.5. To install this particular version, run the following commands (see [this post](https://www.fernandomc.com/posts/brew-install-legacy-hugo-site-generator/) for more info).
 
-To help us develop this template and software sustainably under the MIT license, we ask all individuals and businesses that use it to help support its ongoing maintenance and development via sponsorship.
+```
+brew unlink hugo
+brew install https://raw.githubusercontent.com/Homebrew/homebrew-core/2d7e602ad4c26d1d509e5f6c17fd5911323788a3/Formula/hugo.rb
+```
 
-### [❤️ Click here to unlock rewards with sponsorship](https://wowchemy.com/plans/)
+You might get the following error:
+```
+Error: Calling Installation of hugo from a GitHub commit URL is disabled! Use 'brew extract hugo' to stable tap on GitHub instead.
+```
+in which case run the following commands to install from tap instead (see [this thread](https://discourse.brew.sh/t/has-brew-install-force-formula-raw-path-been-taken-out/8793) for more details).
+```
+brew unlink hugo
+brew tap-new company/team
+brew extract --version 0.55.5 hugo company/team
+brew install company/team/hugo@0.55.5
+brew link hugo@0.55.5
+```
+- Confirm that `hugo version` shows `v0.55.5`.
 
-## Ecosystem
+## Folder organization 
 
-* **[Wowchemy Admin](https://github.com/wowchemy/wowchemy-admin/):** An admin tool to import publications from BibTeX
+```
+├── archetypes
+├── content
+│   ├── home
+│   ├── member
+│   ├── news
+│   └── publication
+├── layouts
+│   ├── member
+│   ├── partials
+│   ├── publication
+│   ├── section
+│   └── shortcodes
+├── parser_tests
+├── public
+│   ├── bibtex
+│   ├── categories
+│   ├── css
+│   ├── cv
+│   ├── data
+│   ├── demos
+│   ├── files
+│   ├── home
+│   ├── img
+│   ├── js
+│   ├── member
+│   ├── members
+│   ├── news
+│   ├── papers
+│   ├── posters
+│   ├── publication
+│   ├── publication_types
+│   └── tags
+├── static
+│   ├── bibtex
+│   ├── css
+│   ├── cv
+│   ├── data
+│   ├── demos
+│   ├── img
+│   ├── js
+│   ├── papers
+│   └── posters
+└── themes
+    └── academic
+```
 
-[![Screenshot](https://raw.githubusercontent.com/wowchemy/wowchemy-hugo-modules/master/academic.png)](https://wowchemy.com)
+- `content`: contains markdown files used to render the page 
+	+ `home`: all widgets displayed on the first page 
+	+ `member`: individual markdown file for each lab member 
+	+ `publication`: individual file for each publication
+		* these files are generated by the cic parser, and can subsequently be edited 
 
-<!--
-[![Analytics](https://ga-beacon.appspot.com/UA-78646709-2/academic-kickstart/readme?pixel)](https://github.com/igrigorik/ga-beacon)
--->
+- `static`: contains all the files (papers, images, datasets, ...) in several subfolders
+
+## How to clone
+
+The hugo setup uses a submodule to differentiate the public facing website from the private developer's side. To clone the repo and appropriately sync the supermodule with the submodule, do the following:
+
+- Clone the homepage repo [here](https://github.com/tobiasgerstenberg/homepage).
+- Delete the "public" folder.
+- Clone the [submodule](https://github.com/tobiasgerstenberg/tobiasgerstenberg.github.io) into the homepage folder.
+- Rename the submodule to public.
+
+## Update the hompage 
+
+If you have any trouble getting things to work, feel free to post an issue on the github repo. 
+
+First navigate to the root directory of the homepage in your terminal. To pull the most recent changes from the github repository by running: 
+
+```
+bash download.sh 
+```
+
+To submit any changes you've made, run:
+
+```
+bash upload.sh 'message'
+```
+
+Please type a 'message' that communicates what changes you've made. 
+
+### Add yourself to the homepage
+
+#### Add your picture
+
+- Make sure that the image is not too large (ideally smaller than 1mb).
+- Ideally, it should be square. 
+- Name the picture `firstname_lastname.jpg` and put it into `static/img/members/`. 
+
+#### Add your CV 
+
+- Name your CV `firstname_lastname.pdf` and put it in `static/cv/`.
+
+#### Add your personal page 
+
+You can create a new webpage by adding a new markdown file with your name into the `content/member/` folder. Just copy the `tobias_gerstenberg.md` file, rename it, and adapt it to your needs. 
+
+#### Update the people page 
+
+In `content/home/people.md` add yourself as a new member. You can simply copy the template. If you don't have twitter or any of the other services, just leave it empty (e.g. `twitter = ""`). 
+
+### Add a publication 
+
+#### Update the lab's bibtex file 
+
+- The lab's bibtex file is located here: `static/bibtex/cic_papers.bib`. 
+- Add the bibtex entry of your publication to the file. 
+- Make sure to add an abstract to your entry. 
+
+#### Parse the bibtex file to update the homepage
+
+In your terminal, navigate to the root folder and run: 
+
+```
+python3 parse_bib_cic.py -i static/bibtex/cic_papers.bib
+```
+
+This will create a new markdown file in the `content/publication/` folder for each new publication that was added to the lab's bibdesk repository. The markdown file is named `bibentryid.md`, for example `gerstenberg2016csm.md`. 
+
+The parser also puts individual `.bib` files for each publication into `static/files/citations/`. 
+
+#### Add a pdf of your paper 
+
+Add a pdf of your paper to `static/papers/` using the same name as the markdown file above (e.g. `gerstenberg2016csm.pdf`).
+
+#### Tweak the publication page 
+
+Navigate to `content/publication/` to open the publication. Adapt the links: 
+
+```
+# Links (optional).
+url_pdf = "papers/gerstenberg2016csm.pdf"
+url_preprint = ""
+url_code = ""
+url_dataset = ""
+url_project = ""
+url_slides = "https://link_to_slides.pdf"
+url_video = ""
+url_poster = ""
+url_source = ""
+```
+
+You can also generate new links by changing `url_custom = []` to 
+
+```
+url_custom = [
+{name = "link_name1", url = "url1"},
+{name = "link_name2", url = "url2"}
+]
+```
+
+You can also add an image to go with the paper by putting it into `static/img/publications/` and linking to by adapting the `image =""` parameter (e.g. `image ="publications/gerstenberg2016csm.png"`).
+
+## Develop the page 
+
+Here is a list of the key files to play around with: 
+
+- `config.toml`: Configuration file 
+	+ navigation bar 
+	+ what's displayed on home page 
+- `homepage/layouts`: 
+	+ contains subfolders with files to adapt the different widgets and pages
+- `/static/css/custom.css`:
+	+ css file to adapt any of the stylings 
+
+## Test the page 
+
+Monkeys help us test for broken links: [https://monkeytest.it/](https://monkeytest.it/)
+
+## Some useful things to know
+
+### Commenting 
+
+- html: `<-- comment -->` 
+- markdown: `# comment`
+- css: `/* comment */`
+- hugo: `// comment`
+
+### Bibtex 
+
+- For the abstracts in the bibtex files, make sure to typeset `"` as `''` (i.e. with two separate quote marks). Otherwise, the metadata in the corresponding `publication.md` file is incorrect. 
+
+## Tutorial links 
+
+- https://georgecushen.com/create-your-website-with-hugo/
+
+## To do list 
+
+- [ ] define personal variables only on people page
