@@ -11,7 +11,7 @@ This is the github repo of Computational Seismology Lab at IISc.
 - Open your terminal and navigate to a directory where you'd like to clone the repository.
 - Run this command in your terminal: 
 ```
-git clone --recursive -j8 https://github.com/pawbz/homepage.git
+git clone --recursive -j8 https://github.com/pawbz/website.git
 ```
 - Check that you're on the master branch both in the root directory, as well as in the subfolder public.
 - In the root directory, run the following commands:
