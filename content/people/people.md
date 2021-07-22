@@ -15,7 +15,7 @@ subtitle = "We are actively looking for motivated students and post-docs to join
   #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
   user_groups = ["Principal Investigator",
                  "Researchers",
-                 "Grad Students",
+                 "PhD Students",
                  "Administration",
                  "Visitors",
                  "Alumni"]
